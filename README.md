@@ -2,11 +2,10 @@
 
 Esta es la solución al reto Rick y Morty, en la cual había que realizar un contador de caracteres
 de cada uno de los endpoints de la API de Rick y Morty, además generar un listado con la
-ubicacion de cada personaje, en base a cada uno de los episodios. Estas ubicaciones no deben repetirse.
+ubicación de cada personaje, en base a cada uno de los episodios. Estas ubicaciones no deben repetirse.
 
 ## Contenido
 
-Back-End controlador de usuraio y notocias.
 El proyecto esta realizado en:
 
 - [Node.js](https://nodejs.org/es/)
