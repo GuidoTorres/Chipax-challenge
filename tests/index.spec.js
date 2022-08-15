@@ -17,7 +17,8 @@ describe("Get api/v1", () => {
    test('should response in less than 3 seconds', async () => { 
     
     const response = await request(app).get("/api/v1").send();
-    expect(response._body.data[0].time).toBeLessThan(3000)
+    expect(response._body.data[0].time && response._body.data[1].time).toBeLessThan(3000)
+
    })
 
 
