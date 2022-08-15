@@ -18,7 +18,6 @@ describe("Get api/v1", () => {
     
     const response = await request(app).get("/api/v1").send();
     expect(response._body.data[0].time).toBeLessThan(3000)
-    console.log(response);
    })
 
 
