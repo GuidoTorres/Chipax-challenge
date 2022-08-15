@@ -43,7 +43,7 @@ npm install
 - Una vez instaladas las dependencias el servidor se levanta de manera local con el comando:
 
 ```bash
-cd nombre-aplicacion.nodejs
+cd aplicacion node js
 npm run dev
 ```
 
